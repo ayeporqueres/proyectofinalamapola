@@ -1,10 +1,16 @@
 
 .productos{
-	margin: 40px;
-	width: 395px;
-	height: 420px;
+	
 	display: flex;
 	justify-content: center;
+    
+    
+    img{
+     width: 460px;
+     height: 382px;
+    }
+
+   
 
     .tituloproducto{
         font-size: 25px;
@@ -27,4 +33,5 @@
         text-align: center;
     }
 
+    
 }

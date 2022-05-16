@@ -6,10 +6,22 @@ header{
    } 
 
    .navbar-nav a{
-	font-size: 4rem;
+	font-size: 2rem;
 	font-family: Smooch Sans;
 	color: grey;
 	text-decoration: beige;
+	display: flex;
 	justify-content: end;
+
+	@media(min-width: 576px){
+		font-size: 3rem;
+	}
    }
+
+  
+	
+}
+
+.navbar {
+	flex-wrap: nowrap;
 }

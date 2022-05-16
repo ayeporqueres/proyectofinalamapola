@@ -20,22 +20,26 @@
     <div class="contenedor">
         <header class="barra">
             <nav class="navbar navbar-expand-lg navbar-light colornav">
-                <div class="container px-4 px-lg-5">
+                <div class="container-fluid px-4 px-lg-5">
                     <a class="navbar-brand" href="index.html"><img src="img/logo2.png" alt="logo" class="w-25"></a>
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarResponsive" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse">
-                        <div class="navbar-nav">
-                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
-                            <a class="nav-link" href="./secciones/productos.html">Productos</a>
-                            <a class="nav-link" href="./secciones/nosotros.html">Nosotros</a>
-                            <a class="nav-link" href="./secciones/contacto.html">Contacto</a>
-                            <a class="nav-link" href="./secciones/micuenta.html">Mi cuenta</a>
-
-                        </div>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        
+                            <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="./secciones/productos.html">Productos</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="./secciones/nosotros.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="./secciones/contacto.html">Contacto</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="./secciones/micuenta.html">Mi cuenta</a>
+                                </li>
+                            </ul>
+                        
                     </div>
                 </div>
 
@@ -65,7 +69,7 @@
 
 
 
-        <main class="row">
+        <main class="row" id="mainIndex">
             <section class="col-md-6 text-center">
                 <h1 class="textCenter1"> VENTAS MINORISTAS </h1>
                 <div class="texto">
@@ -85,36 +89,35 @@
             </section>
         </main>
 
-    <div id="ofertas">
+    <div class="ofertas container-fluid">
         <div class="row">
-            <h2 class="textCenter2"> OFERTAS </h2>
+            <h2 class="textCenter2 text-center"> OFERTAS </h2>
             <div class="col-lg-3 col-md-6">
                 <figure>
-                    <img src="./img/nueces.png" alt="Oferta de nueces" class="promocion" id="promocion">
-                    <figcaption class="nombre"> Nueces mariposa</figcaption>
-                    <p class="precio">1kg $1990</p>
+                    <img src="./img/nueces.png" alt="Oferta de nueces" class="w-100">
+                    <figcaption class="nombre"> Nueces mariposa <p class="precio">1kg $1990</p></figcaption>
+                    
                 </figure>
             </div>
                 <div class="col-lg-3 col-md-6">
                     <figure>
-                        <img class="promocion" src="./img/aritosfrutales.png" alt="Oferta de aritosfrutales">
-                        <figcaption class="nombre">Aritos frutales </figcaption>
-                        <p class="precio">1kg $510</p>
+                        <img  src="./img/aritosfrutales.png" alt="Oferta de aritosfrutales" class="w-100">
+                        <figcaption class="nombre">Aritos frutales <p class="precio">1kg $510</p> </figcaption>
                     </figure>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <figure>
-                        <img class="promocion" src="./img/chia.png" alt="Oferta de chia">
-                        <figcaption class="nombre"> Chía</figcaption>
-                        <p class="precio"> 1kg $1200</p>
+                        <img  src="./img/chia.png" alt="Oferta de chia" class="w-100">
+                        <figcaption class="nombre"> Chía <p class="precio"> 1kg $1200</p> </figcaption>
+                        
                     </figure>
 
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <figure>
-                        <img class="promocion" src="./img/duraznos.png" alt="Oferta de durazno">
-                        <figcaption class="nombre"> Duraznos deshidratados </figcaption>
-                        <p class="precio">1kg $1300</p>
+                        <img src="./img/duraznos.png" alt="Oferta de durazno" class="w-100">
+                        <figcaption class="nombre"> Duraznos deshidratados <p class="precio">1kg $1300</p> </figcaption>
+                        
                     </figure>
                 </div>
             

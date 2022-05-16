@@ -26,33 +26,28 @@
         font-family: serif;
         font-size: 18px;
       
-        .datos{
-            font-size: 20px;
-        }
-        
-        .mensaje{
-            font-size: 20px;
-        }
-        
-        .textarea{
+    }
+    .mensaje{
+        font-size: 20px;
+    }
+    
+    .textarea{
         width: 100%;
         background: rgb(236, 223, 200);
         border-radius: 4px;
         margin-bottom: 16px;
         border: 1px solid rgb(102, 125, 71);
         }
-        .botones{
-            width: 100%;
-            background: rgb(236, 223, 200) ;
-            border: none;
-            padding: 10px;
-            color: rgb(59, 57, 34);
-            margin: 10px 0;
-            font-size: 16px;	
-        }
-    
-    }
 
+    .botones{
+        width: 100%;
+        background: rgb(236, 223, 200) ;
+        border: none;
+        padding: 10px;
+        color: rgb(59, 57, 34);
+        margin: 10px 0;
+        font-size: 16px;	
+    }
 }	
 
 
