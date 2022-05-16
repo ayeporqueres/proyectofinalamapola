@@ -1,0 +1,30 @@
+
+.productos{
+	margin: 40px;
+	width: 395px;
+	height: 420px;
+	display: flex;
+	justify-content: center;
+
+    .tituloproducto{
+        font-size: 25px;
+        color:rgb(138, 92, 50);
+        text-align: center;
+ 
+    }
+
+    .precioproducto{
+        font-size: 18px;
+        text-align:center;
+        padding-bottom: 20px;
+        color: rgb(181, 143, 55);
+        font-family: Oswald ;
+        
+    }
+    
+    .descripcion{
+        font-size: 15px;
+        text-align: center;
+    }
+
+}

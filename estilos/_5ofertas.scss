@@ -1,0 +1,57 @@
+.promo{
+	flex: wrap;
+}
+
+#ofertas {
+
+
+	figure {
+		text-align: center;
+    
+	
+		img {
+			border-top-left-radius:5px ;
+			border-top-right-radius: 5px;
+            width: 350px;
+            height: 350px;
+	
+		}
+		figcaption{
+			font-size: 3rem;
+			color:rgb(138, 92, 50);
+			padding: 1px 0;
+			background-color:rgba(204, 186, 139, 0.8);
+			
+			.precio{
+				color: rgb(110, 104,87);
+				font-size: 2rem;
+				
+				background-color:rgba(204, 186, 139, 0.8) ;
+			}
+		
+		
+		}
+		
+	
+	// }
+
+	}
+	.productos{
+		margin: 40px;
+		width: 395px;
+		height: 420px;
+		display: flex;
+		justify-content: center;
+		
+	}
+		
+} 
+
+
+	#promocion {
+		width: 90px;
+		height: auto;
+		border-style: solid;
+		border-color: rgb(199, 178, 121) ;
+		color: gray;
+    }

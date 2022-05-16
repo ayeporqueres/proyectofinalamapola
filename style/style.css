@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@1,300&family=Smooch+Sans:wght@200;300;500&display=swap");
+header .colornav {
+  background-color: rgba(204, 186, 139, 0.8); }
+
+header .navbar-nav a {
+  font-size: 4rem;
+  font-family: Smooch Sans;
+  color: grey;
+  text-decoration: beige;
+  justify-content: end; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+::-webkit-scrollbar {
+  display: none; }
+
+html {
+  font-size: 62.5%;
+  min-height: 100%;
+  position: relative; }
+
+body {
+  margin: 0;
+  margin-bottom: 200px; }
+
+.hoja {
+  background-image: url(../img/hoja.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 3em;
+  min-height: 100vh;
+  flex: wrap; }
+
+h1,
+h2 {
+  color: #667d47;
+  font-family: Smooch Sans;
+  font-size: 4rem;
+  font-weight: 500; }
+
+h3 {
+  color: #8a5c32;
+  font-family: Smooch Sans;
+  font-size: 3rem;
+  font-weight: 300; }
+
+footer {
+  background-color: rgba(204, 186, 139, 0.8);
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto; }
+  footer h2 {
+    font-size: 2rem;
+    text-align: center; }
+
+.direccion {
+  font-size: 15px; }
+
+.row .textCenter1 {
+  text-align: center;
+  margin: 70px;
+  font-size: 4rem;
+  font-family: Oswald; }
+
+.row .texto {
+  font-size: 2rem;
+  width: 50%; }
+
+.row .bgDark {
+  margin: 20px;
+  justify-content: right; }
+
+.row .bgDark2 {
+  margin: 20px;
+  justify-content: right; }
+
+.promo {
+  flex: wrap; }
+
+#ofertas figure {
+  text-align: center; }
+  #ofertas figure img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 350px;
+    height: 350px; }
+  #ofertas figure figcaption {
+    font-size: 3rem;
+    color: #8a5c32;
+    padding: 1px 0;
+    background-color: rgba(204, 186, 139, 0.8); }
+    #ofertas figure figcaption .precio {
+      color: #6e6857;
+      font-size: 2rem;
+      background-color: rgba(204, 186, 139, 0.8); }
+
+#ofertas .productos {
+  margin: 40px;
+  width: 395px;
+  height: 420px;
+  display: flex;
+  justify-content: center; }
+
+#promocion {
+  width: 90px;
+  height: auto;
+  border-style: solid;
+  border-color: #c7b279;
+  color: gray; }
+
+.nosotros {
+  flex: wrap; }
+  .nosotros .texto2 {
+    width: 50%;
+    margin-left: 500px;
+    padding: 10px;
+    text-align: center; }
+  .nosotros .textCenter2 {
+    text-align: center;
+    margin: 100px 10px;
+    font-size: 6rem;
+    font-family: Oswald; }
+  .nosotros .sierras {
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+
+.contactoamapola {
+  width: 500px;
+  height: 700px;
+  background-color: rgba(204, 186, 139, 0.8);
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-family: Roboto;
+  color: black; }
+  .contactoamapola .titulocontacto {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center; }
+  .contactoamapola .contacto {
+    width: 100%;
+    background: #ecdfc8;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #667d47;
+    font-family: serif;
+    font-size: 18px; }
+    .contactoamapola .contacto .datos {
+      font-size: 20px; }
+    .contactoamapola .contacto .mensaje {
+      font-size: 20px; }
+    .contactoamapola .contacto .textarea {
+      width: 100%;
+      background: #ecdfc8;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      border: 1px solid #667d47; }
+    .contactoamapola .contacto .botones {
+      width: 100%;
+      background: #ecdfc8;
+      border: none;
+      padding: 10px;
+      color: #3b3922;
+      margin: 10px 0;
+      font-size: 16px; }
+
+.registroamapola {
+  width: 400px;
+  background-color: rgba(204, 186, 139, 0.8);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: Roboto;
+  color: black; }
+  .registroamapola .registrotitulo {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center; }
+  .registroamapola .registrotitulo {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center; }
+  .registroamapola .micuenta {
+    width: 100%;
+    background: #ecdfc8;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #667d47;
+    font-family: serif;
+    font-size: 18px; }
+  .registroamapola .registroamapola p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px; }
+  .registroamapola .iniciosesion {
+    color: #010101; }
+
+.productos {
+  margin: 40px;
+  width: 395px;
+  height: 420px;
+  display: flex;
+  justify-content: center; }
+  .productos .tituloproducto {
+    font-size: 25px;
+    color: #8a5c32;
+    text-align: center; }
+  .productos .precioproducto {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #b58f37;
+    font-family: Oswald; }
+  .productos .descripcion {
+    font-size: 15px;
+    text-align: center; }

@@ -1,0 +1,60 @@
+
+.contactoamapola{
+	width: 500px;
+	height: 700px ;
+	background-color: rgba(204,  186, 139, 0.8);
+	padding:30px;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 4px;
+	font-family: Roboto ;
+	color:rgb(0, 0, 0);
+
+    .titulocontacto{
+        font-size: 50px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .contacto{
+        width: 100%;
+        background: rgb(236, 223, 200) ;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid rgb(102, 125, 71);
+        font-family: serif;
+        font-size: 18px;
+      
+        .datos{
+            font-size: 20px;
+        }
+        
+        .mensaje{
+            font-size: 20px;
+        }
+        
+        .textarea{
+        width: 100%;
+        background: rgb(236, 223, 200);
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid rgb(102, 125, 71);
+        }
+        .botones{
+            width: 100%;
+            background: rgb(236, 223, 200) ;
+            border: none;
+            padding: 10px;
+            color: rgb(59, 57, 34);
+            margin: 10px 0;
+            font-size: 16px;	
+        }
+    
+    }
+
+}	
+
+
+
+

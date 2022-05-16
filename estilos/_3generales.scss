@@ -1,0 +1,68 @@
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    display: none;
+} 
+html {
+	font-size: 62.5%;
+	min-height: 100%;
+    position: relative;
+
+}
+
+body{
+	margin: 0;
+    margin-bottom: 200px;
+
+}
+.hoja{
+	background-image: url(../img/hoja.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	padding-bottom: 3em;
+	min-height: 100vh;
+	flex: wrap;
+}
+
+
+
+h1,
+h2 {
+	color: rgb(102, 125, 71);
+	font-family: Smooch Sans;
+	font-size: 4rem;
+	font-weight: 500;
+}
+
+h3 {
+	color: rgb(138, 92, 50);
+	font-family: Smooch Sans;
+	font-size: 3rem;
+	font-weight: 300;
+}
+
+
+footer{
+	background-color:rgba(204,  186, 139, 0.8);
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+   
+    h2{
+        font-size: 2rem;
+        text-align: center;
+          
+    }
+}
+  
+.direccion{
+	font-size: 15px;
+}
