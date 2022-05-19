@@ -18,7 +18,8 @@ html {
 body{
 	margin: 0;
     margin-bottom: 200px;
-
+    height: 100%;
+	overflow: hidden;
 }
 .hoja{
 	background-image: url(../img/hoja.png);
@@ -63,4 +64,14 @@ footer{
   
 .direccion{
 	font-size: 15px;
+}
+
+/*pseudoclases*/
+
+a:link{
+	color: rgb(13, 13, 13)
+}
+
+a:visited{
+	color:blueviolet
 }

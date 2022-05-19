@@ -13,6 +13,9 @@ header .navbar-nav a {
     header .navbar-nav a {
       font-size: 3rem; } }
 
+header ul {
+  display: none; }
+
 .navbar {
   flex-wrap: nowrap; }
 
@@ -68,6 +71,13 @@ footer {
 
 .direccion {
   font-size: 15px; }
+
+/*pseudoclases*/
+a:link {
+  color: #0d0d0d; }
+
+a:visited {
+  color: blueviolet; }
 
 .row .textCenter1 {
   text-align: center;
